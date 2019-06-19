@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="top">
+            <input type="button" value="标记" id="penbtn">
+            <input type="button" value="移动" id="move">
+            <input type="button" value="删除线" id="deleteLine">
+            <input type="button" value="保存图片" id="savePic">
+            <!-- <input type="color" id="colorbtn"> -->
+            <input type="file" value="上传图片" id="addpicbtn">
+        </div>
+        <div style="width:100%;height:90%;">
+            <div id="outbox">
+                <canvas id="cvs"></canvas>
+            </div>
+            <div id="lines"></div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/index.js"></script>
+<script src="js/main.js"></script>

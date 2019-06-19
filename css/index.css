@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#penbtn{
+    width: 80px;
+    height: 35px;
+    background: #dddddd;
+    outline: null;
+}
+#deleteLine{
+    width: 80px;
+    height: 35px;
+    background: #dddddd;
+    outline: null;
+}
+#move{
+    width: 80px;
+    height: 35px;
+    background: #dddddd;
+    outline: null;
+}
+#btmBtn{
+    outline: none
+}
+#savePic{
+    width: 80px;
+    height: 35px;
+    background: #dddddd;
+    outline: null;
+}
+.app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.top{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+.top input{
+    margin-right: 10px;
+}
+#outbox{
+    width: 85%;
+    height: 100%;
+    background: black;
+    position: relative;
+    display: inline-block;
+}
+#addpicbtn{
+    outline: none
+}
+#lines{
+    width: 15%;
+    height: 100%;
+    background: gray;
+    float: right;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
