@@ -21,7 +21,7 @@
     "gulp-uglify": "^3.0.1"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^5.0.1"
   }
